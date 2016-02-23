@@ -1,7 +1,5 @@
-    
 %% Building the Number Game
 % (With some help from Josh Tenenbaum...)
-
 
 %% b) Simple Hypotheses
 % Now take a look at the script *numbergame.m* This script creates a simple
