@@ -259,6 +259,11 @@ for i=13:N,
     countH3 = countH3 + 1;
 end
 
+%% H4: Cultural References // p(H3) = 1/5.
+
+% Cursed Numbers from Lost
+hypload ([4 8 15 16 23 42], 1) = 1;
+
 %% Compute Priors
 
 % EXTRA CREDIT: Find a more principled way of defining the priors, to fit
