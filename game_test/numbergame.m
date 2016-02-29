@@ -5,7 +5,7 @@ N = 100; % This defines the range of numbers we are considering (up to 100)
 
 %---Your Code Here ---- (Input different data sets, one set at a time.)
 
-data =[37];
+data =[50];
 
 %---------------------------------
 
@@ -26,13 +26,15 @@ for i=2:100
 
 end
 
-hypload=zeros(N,1);
-for j = 1:N
-    if mod(j,2) == 1
-        hypload(j) = 1;
-    end
-end
-hyps = [hyps hypload];
+% hypload=zeros(N,1); 
+% for j = 1:N
+%     if mod(j,2) == 1
+%         hypload(j) = 1;
+%     end
+% end
+% hyps = [hyps hypload];
+
+
 
 %TODO: Add your own code here which adds additional hypotheses to the
 %hypothesis space (for d and e). Make sure to describe each hypothesis!

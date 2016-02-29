@@ -14,8 +14,8 @@ close all
 % data = [5 23 77 91];
 % data = [2 73 17 47 11];
 % data = [51 52 57 58];
-% data = [1 2 3 5 8];
- data = [4 8 15 16 23];
+ data = [1 2 3 5 8];
+% data = [4 8 15 16 23];
 
 %% Initiate Variabless
 
@@ -228,13 +228,13 @@ for i = 5 : 8,
     countH3 = countH3 + 1;
 end
 
-%% Exponents
-% Adds hypotheses for n = 1 : 10 to the power of i = 2 : 6
+%% N-ic Numbers
+% Adds hypotheses for quartic through sextic numbers.
 
-for i = 2 : 6,
+for i = 4 : 6,
     hypload = zeros (N, 1);
-    for n = 1 : 10,
-        X = n ^ i;
+    for j = 1 : 10,
+        X = j ^ i;
         if X < 101, % Adds X to hypload (by changing element X to 1)
             hypload (X,1) = 1;
         else
